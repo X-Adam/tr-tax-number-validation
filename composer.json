@@ -1,0 +1,23 @@
+{
+    "name": "x-adam/tr-tax-number-validation",
+    "description": "Turkey tax number validation class.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet ÖĞMEN",
+            "email": "www@mehmetogmen.com.tr",
+            "homepage": "https://www.mehmetogmen.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./src/TrTaxNumberValidation.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
