@@ -6,7 +6,7 @@ class TrTaxNumberValidation
 {
     protected static $cache = [];
 
-    public static function validate($tax_number)
+    public static function validate(string $tax_number): bool
     {
         if (isset(static::$cache[$tax_number])) {
             return static::$cache[$tax_number];

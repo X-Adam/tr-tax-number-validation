@@ -18,12 +18,12 @@ Turkey tax number validation class.
 
 ## Requirements
 
-PHP >=5.4. Other than that, this library has no requirements.
+PHP >=7.0. Other than that, this library has no requirements.
 
 ## Install
 
 ```bash
-$ composer require x-adam/tr-tax-number-validation:"~2"
+$ composer require x-adam/tr-tax-number-validation:"~3"
 ```
 
 ## Example Usage
