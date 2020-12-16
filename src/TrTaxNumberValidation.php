@@ -4,7 +4,7 @@ namespace XAdam;
 
 class TrTaxNumberValidation
 {
-    protected static $cache = array();
+    protected static $cache = [];
 
     public static function validate($tax_number)
     {
